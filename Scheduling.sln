@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranta.Scheduling", "Ranta.Scheduling\Ranta.Scheduling.csproj", "{BE76C113-F342-4375-8850-2A9D16CA50D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranta.Scheduling.Core", "Ranta.Scheduling.Core\Ranta.Scheduling.Core.csproj", "{989E58E9-E998-48FB-8708-8B152F17A9EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranta.Scheduling.JobLibrary", "Ranta.Scheduling.JobLibrary\Ranta.Scheduling.JobLibrary.csproj", "{72DAD102-C80A-4DB9-B9BE-BE80265FC86A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranta.Scheduling.ConsoleTest", "Ranta.Scheduling.ConsoleTest\Ranta.Scheduling.ConsoleTest.csproj", "{93D39A0A-E5B8-4255-8DC3-6F42B2FCE092}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{68E758CE-2479-4A23-A92B-FB5B2DF97D72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranta.Scheduling.Service", "Ranta.Scheduling.Service\Ranta.Scheduling.Service.csproj", "{A19C6C19-8A89-465D-B82B-2E7A41345634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranta.Scheduling.Service.Core", "Ranta.Scheduling.Service.Core\Ranta.Scheduling.Service.Core.csproj", "{936E8ADB-EDA9-46A9-BFE6-1E05928FA482}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{56393906-C6EA-480B-B020-9447AA7AA252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranta.Scheduling.Service.Dal", "Ranta.Scheduling.Service.Dal\Ranta.Scheduling.Service.Dal.csproj", "{12290E65-A7F1-4261-8E2F-4D6B1D2A2BD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranta.Scheduling.Service.Core.Test", "Ranta.Scheduling.Service.Core.Test\Ranta.Scheduling.Service.Core.Test.csproj", "{B555ACCF-8E0C-4828-B28C-8D77FFDCD914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranta.Scheduling.Service.Contract", "Ranta.Scheduling.Service.Contract\Ranta.Scheduling.Service.Contract.csproj", "{32CF3D22-5035-410E-912A-8DCB5B2024CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE76C113-F342-4375-8850-2A9D16CA50D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE76C113-F342-4375-8850-2A9D16CA50D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE76C113-F342-4375-8850-2A9D16CA50D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE76C113-F342-4375-8850-2A9D16CA50D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989E58E9-E998-48FB-8708-8B152F17A9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989E58E9-E998-48FB-8708-8B152F17A9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989E58E9-E998-48FB-8708-8B152F17A9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989E58E9-E998-48FB-8708-8B152F17A9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72DAD102-C80A-4DB9-B9BE-BE80265FC86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72DAD102-C80A-4DB9-B9BE-BE80265FC86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72DAD102-C80A-4DB9-B9BE-BE80265FC86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72DAD102-C80A-4DB9-B9BE-BE80265FC86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D39A0A-E5B8-4255-8DC3-6F42B2FCE092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D39A0A-E5B8-4255-8DC3-6F42B2FCE092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D39A0A-E5B8-4255-8DC3-6F42B2FCE092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D39A0A-E5B8-4255-8DC3-6F42B2FCE092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19C6C19-8A89-465D-B82B-2E7A41345634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19C6C19-8A89-465D-B82B-2E7A41345634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19C6C19-8A89-465D-B82B-2E7A41345634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19C6C19-8A89-465D-B82B-2E7A41345634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936E8ADB-EDA9-46A9-BFE6-1E05928FA482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936E8ADB-EDA9-46A9-BFE6-1E05928FA482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936E8ADB-EDA9-46A9-BFE6-1E05928FA482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936E8ADB-EDA9-46A9-BFE6-1E05928FA482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12290E65-A7F1-4261-8E2F-4D6B1D2A2BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12290E65-A7F1-4261-8E2F-4D6B1D2A2BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12290E65-A7F1-4261-8E2F-4D6B1D2A2BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12290E65-A7F1-4261-8E2F-4D6B1D2A2BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B555ACCF-8E0C-4828-B28C-8D77FFDCD914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B555ACCF-8E0C-4828-B28C-8D77FFDCD914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B555ACCF-8E0C-4828-B28C-8D77FFDCD914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B555ACCF-8E0C-4828-B28C-8D77FFDCD914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32CF3D22-5035-410E-912A-8DCB5B2024CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CF3D22-5035-410E-912A-8DCB5B2024CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CF3D22-5035-410E-912A-8DCB5B2024CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CF3D22-5035-410E-912A-8DCB5B2024CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{989E58E9-E998-48FB-8708-8B152F17A9EF} = {68E758CE-2479-4A23-A92B-FB5B2DF97D72}
+		{72DAD102-C80A-4DB9-B9BE-BE80265FC86A} = {68E758CE-2479-4A23-A92B-FB5B2DF97D72}
+		{93D39A0A-E5B8-4255-8DC3-6F42B2FCE092} = {68E758CE-2479-4A23-A92B-FB5B2DF97D72}
+		{BE76C113-F342-4375-8850-2A9D16CA50D6} = {68E758CE-2479-4A23-A92B-FB5B2DF97D72}
+		{936E8ADB-EDA9-46A9-BFE6-1E05928FA482} = {56393906-C6EA-480B-B020-9447AA7AA252}
+		{A19C6C19-8A89-465D-B82B-2E7A41345634} = {56393906-C6EA-480B-B020-9447AA7AA252}
+		{12290E65-A7F1-4261-8E2F-4D6B1D2A2BD8} = {56393906-C6EA-480B-B020-9447AA7AA252}
+		{B555ACCF-8E0C-4828-B28C-8D77FFDCD914} = {56393906-C6EA-480B-B020-9447AA7AA252}
+		{32CF3D22-5035-410E-912A-8DCB5B2024CF} = {56393906-C6EA-480B-B020-9447AA7AA252}
+	EndGlobalSection
+EndGlobal

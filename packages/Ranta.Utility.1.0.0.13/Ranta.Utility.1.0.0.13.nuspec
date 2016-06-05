@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Ranta.Utility</id>
+    <version>1.0.0.13</version>
+    <title>Ranta.Utility</title>
+    <authors>HarrisZhang</authors>
+    <owners>HarrisZhang</owners>
+    <licenseUrl>http://www.ranta.cn/</licenseUrl>
+    <projectUrl>http://www.ranta.cn/</projectUrl>
+    <iconUrl>http://www.ranta.cn/</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Ranta Utility Project.</description>
+    <releaseNotes>No release notes.</releaseNotes>
+    <tags>Utility</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.8" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
